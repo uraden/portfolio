@@ -1,0 +1,40 @@
+.AppHeader {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+
+  .hh1{
+    color: white;
+    position: absolute;
+    top: 10px;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  .p1{
+    position: absolute;
+    top: 50px;
+    font-size: 20px;
+  }
+
+  .p2{
+    position: absolute;
+    top: 65px;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+    .alink{
+      font-family:Cursive;
+    }
+
+  .alink:visited{
+    color: white;
+    
+  }

@@ -1,0 +1,63 @@
+.map{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 50px;
+}
+
+
+.social-media{
+    margin-bottom: 30px;
+    grid-template-columns: repeat(3,1fr);
+    margin-top: 10px;
+    grid-gap: 50px;
+    display: flex;
+    text-align: center;
+   
+}
+
+
+.link-black
+{
+    color: black;
+}
+
+.email-tag:hover{
+    color: rgb(163, 162, 162);
+    transition: 0.5s;
+}
+
+.phone-tag:hover{
+    color: rgb(163, 162, 162);
+    transition: 0.5s;
+}
+
+.fb-tag:hover{
+    color:#3b5998;
+    transition: 0.5s;
+}
+
+.tg-tag:hover{
+    transition: 0.5s;
+    color: #0088CC;
+}
+
+.li-tag:hover{
+transition: 0.5s;
+color: #0e76a8;
+}
+
+
+.skill-wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-word{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 900;
+}
